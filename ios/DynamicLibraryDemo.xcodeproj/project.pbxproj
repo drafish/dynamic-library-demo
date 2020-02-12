@@ -10,6 +10,8 @@
 		FC71BC1223F3C6B5004E6E43 /* DynamicLibraryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC71BC0823F3C6B5004E6E43 /* DynamicLibraryDemo.framework */; };
 		FC71BC1723F3C6B5004E6E43 /* DynamicLibraryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC71BC1623F3C6B5004E6E43 /* DynamicLibraryDemoTests.m */; };
 		FC71BC1923F3C6B5004E6E43 /* DynamicLibraryDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = FC71BC0B23F3C6B5004E6E43 /* DynamicLibraryDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC71BC3523F3CF64004E6E43 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC71BC3423F3CF64004E6E43 /* Test.cpp */; };
+		FC71BC3723F3CF6D004E6E43 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = FC71BC3623F3CF6D004E6E43 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		FC71BC1123F3C6B5004E6E43 /* DynamicLibraryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicLibraryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC71BC1623F3C6B5004E6E43 /* DynamicLibraryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicLibraryDemoTests.m; sourceTree = "<group>"; };
 		FC71BC1823F3C6B5004E6E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC71BC3423F3CF64004E6E43 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Test.cpp; path = ../../cpp/Test.cpp; sourceTree = "<group>"; };
+		FC71BC3623F3CF6D004E6E43 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = ../../cpp/Test.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				FC71BC0B23F3C6B5004E6E43 /* DynamicLibraryDemo.h */,
+				FC71BC3623F3CF6D004E6E43 /* Test.h */,
+				FC71BC3423F3CF64004E6E43 /* Test.cpp */,
 				FC71BC0C23F3C6B5004E6E43 /* Info.plist */,
 			);
 			path = DynamicLibraryDemo;
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC71BC3723F3CF6D004E6E43 /* Test.h in Headers */,
 				FC71BC1923F3C6B5004E6E43 /* DynamicLibraryDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC71BC3523F3CF64004E6E43 /* Test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
